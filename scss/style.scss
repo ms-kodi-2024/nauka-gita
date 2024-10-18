@@ -67,3 +67,27 @@
         letter-spacing: normal;
     }
 }
+
+/* Media */
+
+@media (max-width: 991px) {
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        width: 100%;
+
+        &:first-of-type {
+            display: none;
+        }
+    }
+
+    .text-wrapper {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        text-align: center;
+    }
+}
