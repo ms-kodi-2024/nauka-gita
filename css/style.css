@@ -21,6 +21,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: all 1s ease;
+}
+.image-wrapper img.rotated {
+  transform: rotate(180deg);
 }
 
 /* text-wrapper */
