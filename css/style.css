@@ -23,4 +23,39 @@
   object-fit: cover;
 }
 
+/* text-wrapper */
+.text-wrapper {
+  font-family: "Cinzel", serif;
+  background-color: #fff;
+  width: 33.33%;
+  height: 100vh;
+  line-height: 2;
+  padding: 20px 30px;
+  border-style: double;
+  border-color: #6b7472;
+  border-width: 20px;
+  overflow: auto;
+}
+.text-wrapper h1,
+.text-wrapper h2,
+.text-wrapper span {
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #9d9d9d;
+}
+.text-wrapper h1 {
+  font-size: 40px;
+}
+.text-wrapper h2 {
+  font-size: 30px;
+}
+.text-wrapper p {
+  padding: 20px 0 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+.text-wrapper span {
+  font-style: oblique;
+  letter-spacing: normal;
+}
+
 /*# sourceMappingURL=style.css.map */
